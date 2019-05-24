@@ -42,8 +42,11 @@
 
 #db-[99:101]-node.example.com
 
-[web]
-35.246.96.115
+[master]
+34.90.161.28
 
-[db]
-35.242.169.4
+[dev_stand]
+35.228.61.109 state=Developing_stand
+
+[prod_stand]
+35.228.120.42 state=Production_stand

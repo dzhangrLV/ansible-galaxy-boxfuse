@@ -1,2 +1,18 @@
 ---
+- name: Developing stand configuration
+  hosts: dev_stand
+  become: yes
 
+  roles:
+    - common
+    - security
+    - dev_stand
+
+- name: Production stand configuration
+  hosts: prod_stand
+  become: yes
+
+  roles:
+    - common
+    - security
+    - prod_stand
