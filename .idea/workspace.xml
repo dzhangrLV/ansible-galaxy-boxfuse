@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a109f22-4367-41a0-8aa8-9e8aa84304e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/roles/common/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/common/defaults/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/common/handlers/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/common/meta/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/common/tasks/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/common/tests/inventory" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/common/tests/test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/common/vars/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/security/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/security/defaults/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/security/handlers/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/security/meta/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/security/tasks/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/security/templates/banner.j2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/security/tests/inventory" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/security/tests/test.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roles/security/vars/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hosts" beforeDir="false" afterPath="$PROJECT_DIR$/hosts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/dev_stand/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/dev_stand/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/prod_stand/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/prod_stand/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/security/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/security/tasks/main.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -51,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/roles/security/tasks/main.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+            <state relative-caret-position="435">
+              <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -110,14 +90,14 @@
         <option value="$PROJECT_DIR$/hosts" />
         <option value="$PROJECT_DIR$/roles/security/templates/banner.j2" />
         <option value="$PROJECT_DIR$/roles/security/handlers/main.yml" />
-        <option value="$PROJECT_DIR$/roles/security/tasks/main.yml" />
         <option value="$PROJECT_DIR$/roles/common/tasks/main.yml" />
+        <option value="$PROJECT_DIR$/roles/security/tasks/main.yml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2043" />
-    <option name="y" value="234" />
+    <option name="x" value="6" />
+    <option name="y" value="329" />
     <option name="width" value="1914" />
     <option name="height" value="1051" />
   </component>
@@ -252,7 +232,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558683017816</updated>
-      <workItem from="1558683019491" duration="5622000" />
+      <workItem from="1558683019491" duration="7546000" />
     </task>
     <task id="LOCAL-00001" summary="add main playbook">
       <created>1558683474701</created>
@@ -261,14 +241,28 @@
       <option name="project" value="LOCAL" />
       <updated>1558683474701</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="main commit">
+      <created>1558688673492</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558688673492</updated>
+    </task>
+    <task id="LOCAL-00003" summary="up security main.yml">
+      <created>1558689810029</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558689810029</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5622000" />
+    <option name="totallyTimeSpent" value="7546000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1919" y="0" width="1922" height="1081" extended-state="6" />
+    <frame x="-1" y="294" width="1922" height="1052" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -301,7 +295,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add main playbook" />
-    <option name="LAST_COMMIT_MESSAGE" value="add main playbook" />
+    <MESSAGE value="main commit" />
+    <MESSAGE value="up security main.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="up security main.yml" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/roles/dev_stand/tests/test.yml">
@@ -341,17 +337,10 @@
     <entry file="file://$PROJECT_DIR$/roles/dev_stand/handlers/main.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/roles/security/tasks/main.yml">
+    <entry file="file://$PROJECT_DIR$/main.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/roles/dev_stand/tasks/main.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="49" lean-forward="true" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+        <state relative-caret-position="255">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -369,6 +358,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/roles/dev_stand/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="49" lean-forward="true" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/roles/security/templates/banner.j2">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -376,10 +372,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.yml">
+    <entry file="file://$PROJECT_DIR$/roles/security/tasks/main.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="435">
+          <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
         </state>
       </provider>
     </entry>
