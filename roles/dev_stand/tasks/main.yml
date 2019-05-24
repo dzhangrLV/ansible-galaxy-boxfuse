@@ -1,0 +1,25 @@
+---
+# tasks file for dev_stand
+# tasks for installing OpenJDK && Maven
+
+- name: install OpenJDK and maven (and other packages if needed)
+  become: yes
+  apt: pkg={{ item }} state=latest update_cache=yes cache_valid_time=3600
+  with_items:
+    - maven
+    - default-jdk
+
+# Git Clone repository Boxfuse
+- name: Download Boxfuse
+  git:
+    repo: "{{ boxfuse_repo }}"
+    version: master
+    dest: "{{ playbook_dir }}/boxfuse"
+    force: yes
+
+# Maven clean package
+- name: maven clean package
+  command: mvn -f "{{ playbook_dir }}/boxfuse/pom.xml" clean package
+
+- name: copy boxfuse-sample-java-war-hello.war
+  shell: cp "{{ playbook_dir }}/boxfuse/target/hello-1.0.war" "{{ playbook_dir }}/tomcat/apache-tomcat-8.5.9/webapps/"

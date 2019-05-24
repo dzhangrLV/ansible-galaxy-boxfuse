@@ -1,0 +1,23 @@
+---
+# tasks file for prod_stand
+
+# tasks for installing tomcat
+- name: Create folder
+  file:
+    path: "{{ playbook_dir }}/tomcat"
+    state: directory
+    mode: 0755
+    owner: root
+    group: root
+
+- name: Download Tomcat
+  get_url: url=https://archive.apache.org/dist/tomcat/tomcat-8/v8.5.9/bin/apache-tomcat-8.5.9.tar.gz dest="{{ playbook_dir }}/tomcat"
+
+- name: Extract archive
+  unarchive: src="{{ playbook_dir }}/tomcat/apache-tomcat-8.5.9.tar.gz" dest="{{ playbook_dir }}/tomcat"
+
+- name: copy boxfuse-sample-java-war-hello.war
+  shell: cp "{{ playbook_dir }}/boxfuse/target/hello-1.0.war" "{{ playbook_dir }}/tomcat/apache-tomcat-8.5.9/webapps/"
+
+- name: start apache-tomcat
+  command: nohup "{{ playbook_dir }}/tomcat/apache-tomcat-8.5.9/bin/startup.sh"
