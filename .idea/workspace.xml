@@ -88,8 +88,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/roles/prod_stand/tasks/main.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="65" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
+            <state relative-caret-position="330">
+              <caret line="22" column="79" lean-forward="true" selection-start-line="22" selection-start-column="79" selection-end-line="22" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -226,7 +226,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558683017816</updated>
-      <workItem from="1558683019491" duration="14830000" />
+      <workItem from="1558683019491" duration="16306000" />
     </task>
     <task id="LOCAL-00001" summary="add main playbook">
       <created>1558683474701</created>
@@ -312,11 +312,25 @@
       <option name="project" value="LOCAL" />
       <updated>1558702985250</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="up prod_stand main.yml 9">
+      <created>1558703252371</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1558703252371</updated>
+    </task>
+    <task id="LOCAL-00014" summary="up prod_stand main.yml 10">
+      <created>1558705247758</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1558705247758</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14830000" />
+    <option name="totallyTimeSpent" value="16306000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="294" width="1922" height="1052" extended-state="6" />
@@ -363,7 +377,9 @@
     <MESSAGE value="up prod_stand main.yml 6" />
     <MESSAGE value="up prod_stand main.yml 7" />
     <MESSAGE value="up prod_stand main.yml 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="up prod_stand main.yml 8" />
+    <MESSAGE value="up prod_stand main.yml 9" />
+    <MESSAGE value="up prod_stand main.yml 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="up prod_stand main.yml 10" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/roles/dev_stand/tests/test.yml">
@@ -455,8 +471,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/roles/prod_stand/tasks/main.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="65" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
+        <state relative-caret-position="330">
+          <caret line="22" column="79" lean-forward="true" selection-start-line="22" selection-start-column="79" selection-end-line="22" selection-end-column="79" />
         </state>
       </provider>
     </entry>
