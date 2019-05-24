@@ -1,6 +1,6 @@
 ---
 - name: Developing stand configuration
-  hosts: dev_stand
+  hosts: dev01
   become: yes
 
   roles:
@@ -9,7 +9,7 @@
     - dev_stand
 
 - name: Production stand configuration
-  hosts: prod_stand
+  hosts: prod01
   become: yes
 
   roles:

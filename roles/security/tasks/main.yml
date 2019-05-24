@@ -15,16 +15,3 @@
 
 - name: Restart ssh
   service: name=ssh state=restarted
-
-#- name: Copy template banner
-#  template:
-#    src: banner.j2
-#    dest: /etc/ssh/banner
-
-
-#- name: edit config ssh
-#  lineinfiles:
-#    dest: /etc/ssh/sshd_config
-#    line: 'Banner /etc/ssh/banner'
-#  notify:
-#    - restart sshd

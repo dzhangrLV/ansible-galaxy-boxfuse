@@ -45,8 +45,8 @@
 [master]
 34.90.161.28
 
-[dev_stand]
-35.228.61.109 state=Developing_stand
+[dev]
+dev01 ansible_host=35.228.61.109 state=Developing_stand
 
-[prod_stand]
-35.228.120.42 state=Production_stand
+[prod]
+prod01 ansible_host=35.228.120.42 state=Production_stand

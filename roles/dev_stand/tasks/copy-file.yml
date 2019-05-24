@@ -1,8 +1,0 @@
----
-- hosts: prod_stand
-  tasks:
-    - name: Synchronization war-file from dev_stand to prod_stand
-      synchronize:
-        src: "{{ playbook_dir }}/boxfuse/target/"
-        dest: "opt/tomcat/apache-tomcat-8.5.9/webapps"
-      delegate_to: dev_stand
