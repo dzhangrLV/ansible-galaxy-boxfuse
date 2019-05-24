@@ -26,7 +26,7 @@
   synchronize:
     mode: pull
     src: rsync://{{ hostvars['dev01'].ansible_host }}/{{ playbook_dir }}/boxfuse/target/
-    dest: {{ playbook_dir }}/tomcat/apache-tomcat-8.5.9/webapps
+    dest: "{{ playbook_dir }}/tomcat/apache-tomcat-8.5.9/webapps/"
 
 
 #    src: "{{ playbook_dir }}/boxfuse/target/"
