@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a109f22-4367-41a0-8aa8-9e8aa84304e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/roles/dev_stand/tasks/copy-file.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/security/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/security/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/ansible.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/dev_stand/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/dev_stand/tasks/main.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +33,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/roles/security/tasks/main.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
@@ -52,8 +54,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/roles/dev_stand/tasks/main.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="49" lean-forward="true" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+            <state relative-caret-position="315">
+              <caret line="21" column="68" lean-forward="true" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ansible.cfg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/roles/dev_stand/tasks/copy-file.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -85,13 +105,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main.yml" />
-        <option value="$PROJECT_DIR$/roles/dev_stand/tasks/main.yml" />
         <option value="$PROJECT_DIR$/roles/prod_stand/tasks/main.yml" />
         <option value="$PROJECT_DIR$/hosts" />
         <option value="$PROJECT_DIR$/roles/security/templates/banner.j2" />
         <option value="$PROJECT_DIR$/roles/security/handlers/main.yml" />
         <option value="$PROJECT_DIR$/roles/common/tasks/main.yml" />
         <option value="$PROJECT_DIR$/roles/security/tasks/main.yml" />
+        <option value="$PROJECT_DIR$/roles/dev_stand/tasks/main.yml" />
+        <option value="$PROJECT_DIR$/roles/dev_stand/tasks/copy-file.yml" />
+        <option value="$PROJECT_DIR$/ansible.cfg" />
       </list>
     </option>
   </component>
@@ -120,19 +142,6 @@
               <item name="ansible-galaxy-boxfuse" type="b2602c69:ProjectViewProjectNode" />
               <item name="ansible-galaxy-boxfuse" type="462c0819:PsiDirectoryNode" />
               <item name="roles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ansible-galaxy-boxfuse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ansible-galaxy-boxfuse" type="462c0819:PsiDirectoryNode" />
-              <item name="roles" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ansible-galaxy-boxfuse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ansible-galaxy-boxfuse" type="462c0819:PsiDirectoryNode" />
-              <item name="roles" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ansible-galaxy-boxfuse" type="b2602c69:ProjectViewProjectNode" />
@@ -232,7 +241,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558683017816</updated>
-      <workItem from="1558683019491" duration="7546000" />
+      <workItem from="1558683019491" duration="8893000" />
     </task>
     <task id="LOCAL-00001" summary="add main playbook">
       <created>1558683474701</created>
@@ -255,11 +264,25 @@
       <option name="project" value="LOCAL" />
       <updated>1558689810029</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="up security main.yml 2">
+      <created>1558690576083</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558690576083</updated>
+    </task>
+    <task id="LOCAL-00005" summary="up dev_stand main.yml">
+      <created>1558691323197</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558691323197</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7546000" />
+    <option name="totallyTimeSpent" value="8893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="294" width="1922" height="1052" extended-state="6" />
@@ -297,7 +320,9 @@
     <MESSAGE value="add main playbook" />
     <MESSAGE value="main commit" />
     <MESSAGE value="up security main.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="up security main.yml" />
+    <MESSAGE value="up security main.yml 2" />
+    <MESSAGE value="up dev_stand main.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="up dev_stand main.yml" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/roles/dev_stand/tests/test.yml">
@@ -328,9 +353,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ansible.cfg">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/roles/dev_stand/defaults/main.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -358,13 +380,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/roles/dev_stand/tasks/main.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="49" lean-forward="true" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/roles/security/templates/banner.j2">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -376,6 +391,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/dev_stand/tasks/copy-file.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roles/dev_stand/tasks/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="68" lean-forward="true" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansible.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
         </state>
       </provider>
     </entry>
