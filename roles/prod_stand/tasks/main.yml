@@ -25,7 +25,7 @@
 - name: Copy file from dev_stand to prod_stand
   synchronize:
     mode: pull
-    src: "rsync://{{ hosts['dev'].ansible_host }}/{{ playbook_dir }}//boxfuse/target/"
+    src: "rsync://{{ host_vars['dev'].ansible_host }}/{{ playbook_dir }}//boxfuse/target/"
     dest: "{{ playbook_dir }}/tomcat/apache-tomcat-8.5.9/webapps"
 
 
