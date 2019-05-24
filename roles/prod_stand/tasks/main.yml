@@ -24,7 +24,7 @@
 
 - name: Copy file from dev_stand to prod_stand
   become: yes
-  shell: rsync -avzh root@{ hostvars['dev01'].ansible_host }}:{{ playbook_dir }}/boxfuse/target/ {{ playbook_dir }}/tomcat/apache-tomcat-8.5.9/webapps/
+  shell: rsync -avzh root@{{ hostvars['dev01'].ansible_host }}:{{ playbook_dir }}/boxfuse/target/ {{ playbook_dir }}/tomcat/apache-tomcat-8.5.9/webapps/
 #  synchronize:
 #    mode: pull
 #    src: "rsync://{{ hostvars['dev01'].ansible_host }}{{ playbook_dir }}/boxfuse/target/"

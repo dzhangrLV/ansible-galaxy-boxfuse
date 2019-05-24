@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a109f22-4367-41a0-8aa8-9e8aa84304e6" name="Default Changelist" comment="" />
+    <list default="true" id="6a109f22-4367-41a0-8aa8-9e8aa84304e6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/roles/prod_stand/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/prod_stand/tasks/main.yml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,8 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/roles/prod_stand/tasks/main.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="66" lean-forward="true" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
+            <state relative-caret-position="390">
+              <caret line="26" column="151" lean-forward="true" selection-start-line="26" selection-start-column="151" selection-end-line="26" selection-end-column="151" />
             </state>
           </provider>
         </entry>
@@ -214,7 +216,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558683017816</updated>
-      <workItem from="1558683019491" duration="21159000" />
+      <workItem from="1558683019491" duration="22102000" />
     </task>
     <task id="LOCAL-00001" summary="add main playbook">
       <created>1558683474701</created>
@@ -398,11 +400,25 @@
       <option name="project" value="LOCAL" />
       <updated>1558710527452</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="add rsync user 3">
+      <created>1558711090655</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1558711090655</updated>
+    </task>
+    <task id="LOCAL-00028" summary="add rsync user 4">
+      <created>1558711100738</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1558711100738</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21159000" />
+    <option name="totallyTimeSpent" value="22102000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="294" width="1922" height="1052" extended-state="6" />
@@ -437,7 +453,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add main playbook" />
     <MESSAGE value="main commit" />
     <MESSAGE value="up security main.yml" />
     <MESSAGE value="up security main.yml 2" />
@@ -462,7 +477,8 @@
     <MESSAGE value="add rsync user" />
     <MESSAGE value="add rsync user 2" />
     <MESSAGE value="add rsync user 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="add rsync user 3" />
+    <MESSAGE value="add rsync user 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="add rsync user 4" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/roles/dev_stand/tests/test.yml">
@@ -554,8 +570,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/roles/prod_stand/tasks/main.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="66" lean-forward="true" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
+        <state relative-caret-position="390">
+          <caret line="26" column="151" lean-forward="true" selection-start-line="26" selection-start-column="151" selection-end-line="26" selection-end-column="151" />
         </state>
       </provider>
     </entry>
