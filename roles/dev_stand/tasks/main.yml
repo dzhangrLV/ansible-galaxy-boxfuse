@@ -22,8 +22,7 @@
   command: mvn -f "{{ playbook_dir }}/boxfuse/pom.xml" clean package
 
 - name: Synchronization war-file from dev_stand to prod_stand
-  hosts: dev_stand, prod_stand
-  become: yes
+  hosts: prod_stand
   tasks:
     - name: Copy file from dev_stand to prod_stand
       synchronize:
