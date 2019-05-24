@@ -21,7 +21,7 @@
 - name: maven clean package
   command: mvn -f "{{ playbook_dir }}/boxfuse/pom.xml" clean package
 
-- name: Copy file from dev_stand to prod_stand
-  synchronize:
-    src: "{{ playbook_dir }}/boxfuse/target/"
-    dest: "rsync://{{ hosts['prod']['ansible_host'] }}/{{ playbook_dir }}/tomcat/apache-tomcat-8.5.9/webapps"
+#- name: Copy file from dev_stand to prod_stand
+#  synchronize:
+#    src: "{{ playbook_dir }}/boxfuse/target/"
+#   dest: "rsync://{{ hosts['prod']['ansible_host'] }}/{{ playbook_dir }}/tomcat/apache-tomcat-8.5.9/webapps"

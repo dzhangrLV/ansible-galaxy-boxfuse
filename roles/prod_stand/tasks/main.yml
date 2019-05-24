@@ -18,3 +18,13 @@
 
 - name: start apache-tomcat
   command: nohup "{{ playbook_dir }}/tomcat/apache-tomcat-8.5.9/bin/startup.sh"
+
+- name: Copy file from dev_stand to prod_stand
+  synchronize:
+    mode: pull
+    src: rsync://somehost.com/path/
+    dest: {{ playbook_dir }}/tomcat/apache-tomcat-8.5.9/webapps
+
+
+    src: "{{ playbook_dir }}/boxfuse/target/"
+    dest: "rsync://{{ ['prod']['ansible_host'] }}/{{ playbook_dir }}/tomcat/apache-tomcat-8.5.9/webapps"
