@@ -1,7 +1,10 @@
 ---
 # tasks file for security
 - name: Copy template banner
-  template: src=banner.j2 dest=/etc/ssh/banner mode=555
+  template:
+    src: banner.j2
+    dest: /etc/ssh/banner
+
 
 - name: edit config ssh
   lineinfiles:
