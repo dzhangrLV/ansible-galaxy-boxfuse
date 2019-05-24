@@ -15,6 +15,7 @@
 
 - name: Extract archive
   unarchive: src="{{ playbook_dir }}/tomcat/apache-tomcat-8.5.9.tar.gz" dest="{{ playbook_dir }}/tomcat"
+  remote_src: yes
 
 - name: start apache-tomcat
   command: nohup "{{ playbook_dir }}/tomcat/apache-tomcat-8.5.9/bin/startup.sh"
